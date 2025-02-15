@@ -101,9 +101,5 @@ def run_bot(ticker):
 
 # -------------------- RUN SCRIPT --------------------
 if __name__ == "__main__":
-    # Test email functionality
-    send_email("Test Email", "This is a test message to check if email alerts are working.")
-
-    # Run stock anomaly detection
     ticker = "ITC.NS"  # Change to any stock ticker
     run_bot(ticker)
